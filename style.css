@@ -12,12 +12,12 @@
   height: 64px;
   flex-shrink: 0;
   border-radius: 5px;
-background: #F15B22;
-font-size: 20px;
-color: white;
+  background: #f15b22;
+  font-size: 20px;
+  color: white;
 }
-section{
-    margin-top:139px;
+section {
+  margin-top: 139px;
 }
 /* Header started */
 .header {
@@ -48,30 +48,81 @@ section{
   text-align: right;
 }
 /* Failure started */
-.failure{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.failure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.failure-text{
-    display: flex;
-    flex-direction: column;
+.failure-text {
+  display: flex;
+  flex-direction: column;
 }
-.failure-title{
- width: 288px;
- font-size: 40px;
- font-weight: 700;
- color: #151414;
- margin-bottom: 24px;
+.failure-title {
+  width: 288px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 24px;
 }
-.failure-description{
-    width: 416px;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    color:#444343;
+.failure-description {
+  width: 416px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #444343;
 }
-.failure-list h4{
- margin-bottom: 10px;
- color:#444343 ;
+.failure-list h4 {
+  margin-bottom: 10px;
+  color: #444343;
+}
+/* My plan started */
+.item-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.item .name {
+  font-size: 30px;
+  text-align: center;
+}
+.item .what-i-do {
+  font-size: 25px;
+  color: #737373;
+  text-align: center;
+}
+.item img {
+  width: 92.958px;
+  height: 92.958px;
+}
+
+/* Problem is here */
+
+/* positive started */
+.positive {
+  width: 1140px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url(watch.png);
+  padding-top:64px;
+  padding-left: 64px;
+}
+.positive .title{
+    width: 459px;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.positive .btn{
+    padding:20px 36px;
+    margin-top: 24px;
+    font-size: 20px;
+    color: #F15B22;
 }
