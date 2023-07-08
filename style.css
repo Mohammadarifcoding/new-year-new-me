@@ -75,6 +75,7 @@ section {
   margin-bottom: 10px;
   color: #444343;
 }
+
 /* My plan started */
 .item-container {
   display: flex;
@@ -100,8 +101,9 @@ section {
 .item img {
   width: 92.958px;
   height: 92.958px;
+  display: block;
+  margin: 0 auto;
 }
-
 /* Problem is here */
 
 /* positive started */
@@ -110,19 +112,82 @@ section {
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url(watch.png);
-  padding-top:64px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url(watch.png);
+  padding-top: 64px;
   padding-left: 64px;
 }
-.positive .title{
-    width: 459px;
-    font-size: 40px;
-    color: white;
-    font-weight: 700;
+.positive .title {
+  width: 459px;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
 }
-.positive .btn{
-    padding:20px 36px;
-    margin-top: 24px;
-    font-size: 20px;
-    color: #F15B22;
+.positive .btn {
+  padding: 20px 36px;
+  margin-top: 24px;
+  font-size: 20px;
+  color: #f15b22;
+}
+/*  */
+.footer {
+  background-color: #151414;
+  color: white;
+}
+.total-footer {
+  height: 577px;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 130px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  width: 485px;
+}
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.footer-description{
+  color: #FFF;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.footer-small-description1{
+  margin-bottom: 16px;
+}
+.footer-small-description2{
+  margin-bottom: 34px;
+}
+.subscribe {
+  width: 325px;
+}
+.subscribe .title{
+  color: #FFF;
+font-size: 25px;
+margin-bottom: 31px;
+}
+.subscribe #email{
+padding: 21px 22px;
+  color:  #F3F3F3;
+font-size: 18px;
+font-weight: 400;
+background-color: #151414;
+border-radius:10px;
+margin-bottom: 16px;
+
+}
+.subscribe button{
+  padding:20px 36.02px ;
+  color: #f15b22;
+  background-color: white;
+  border-radius: 10px;
 }
